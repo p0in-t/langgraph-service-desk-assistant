@@ -1,0 +1,90 @@
+Gemini, formerly known as Bard, is a generative artificial intelligence chatbot developed by Google. Based on the large language model (LLM) of the same name, it was launched in 2023 in response to the rise of OpenAI's ChatGPT. It was previously based on the LaMDA and PaLM LLMs.
+
+LaMDA had been developed and announced in 2021, but it was not released to the public out of an abundance of caution. OpenAI's launch of ChatGPT in November 2022 and its subsequent popularity caught Google executives off-guard, prompting a sweeping response in the ensuing months. After mobilizing its workforce, the company launched Bard in a limited capacity in March 2023 before expanding to other countries in May. Bard took center stage during the 2023 Google I/O keynote in May and was upgraded to the Gemini LLM in December. In February 2024, Bard and Duet AI, another artificial intelligence product from Google, were unified under the Gemini brand, coinciding with the launch of an Android app.
+
+Gemini initially received lukewarm responses. It became the center of controversy in February 2024, when social media users reported that it was generating historically inaccurate images of historical figures as people of color, with people commenting on its bias as "wokeness".
+
+In November 2022, OpenAI launched ChatGPT, a chatbot based on the GPT-3 family of large language models (LLMs). ChatGPT gained worldwide attention, becoming a viral Internet sensation. Alarmed by ChatGPT's potential threat to Google Search, Google executives issued a "code red" alert, reassigning several teams to assist in the company's artificial intelligence (AI) efforts. Sundar Pichai, the CEO of Google and parent company Alphabet, was widely reported to have issued the alert, but Pichai later denied this to The New York Times. In a rare move, Google co-founders Larry Page and Sergey Brin, who had stepped down from their roles as co-CEOs of Alphabet in 2019, attended emergency meetings with company executives to discuss Google's response to ChatGPT. Brin requested access to Google's code in February 2023, for the first time in years.
+
+Google had unveiled LaMDA, a prototype LLM, earlier in 2021, but it was not released to the public. When asked by employees at an all-hands meeting whether LaMDA was a missed opportunity for Google to compete with ChatGPT, Pichai and Google AI chief Jeff Dean said that while the company had similar capabilities to ChatGPT, moving too quickly in that arena would represent a major "reputational risk" due to Google being substantially larger than OpenAI. In January 2023, Google Brain sister company DeepMind CEO Demis Hassabis hinted at plans for a ChatGPT rival, and Google employees were instructed to accelerate progress on a ChatGPT competitor, intensively testing "Apprentice Bard" and other chatbots. Pichai assured investors during Google's quarterly earnings investor call in February that the company had plans to expand LaMDA's availability and applications.
+
+An overview of the Gemini app
+We have long seen the potential of AI to make information and computing more accessible and useful to people. We have made pioneering advances on large language models (LLMs) and have seen great progress across Google and in this field more broadly. For several years, we have applied LLMs in the background to improve many of our products, such as autocompleting sentences in Gmail, expanding Google Translate, and helping us better understand queries in Google Search. We continue using LLMs for many Google services, as well as to power the Gemini app, which allows people to collaborate directly with generative AI. We want the Gemini app to be the most helpful and personal AI assistant, giving users direct access to Google’s latest AI models.
+
+While we’re at an important inflection point and encouraged by the widespread excitement around generative AI, it’s still early days for this technology. This explainer outlines how we’re approaching our work on the Gemini app (“Gemini”), including its mobile and web experiences — what it is, how it works and its current capabilities and limitations. Our approach to building Gemini will evolve as its underlying technology evolves, and as we learn from ongoing research, experience and user feedback.
+
+What Gemini is
+Gemini is an interface to a multimodal LLM (handling text, audio, images and more). Gemini is based on Google’s cutting-edge research in LLMs, which began with the Word2Vec paper in 2013 that proposed novel model architectures that mapped words as mathematical concepts, followed by the introduction of a neural conversational model in 2015. This framework demonstrated how models could predict the next sentence in a conversation based on the previous sentence or sentences, leading to more natural conversational experiences. This was followed by our breakthrough work on Transformer in 2017 and multi-turn chat capabilities in 2020, which demonstrated even more compelling generative language progress.
+
+We initially launched Gemini (then called Bard) as an experiment in March 2023 in accordance with our AI Principles. Since then, users have turned to Gemini to write compelling emails, debug tricky coding problems, brainstorm ideas for upcoming events, get help learning difficult concepts, and so much more. Today, Gemini is a versatile AI tool that can help you in many ways. We already see Gemini helping people be more productive, more creative, and more curious and we add new functionality and innovations regularly.
+
+Productivity
+For starters, Gemini can save you time. For example, say you are looking to summarize a long research document; Gemini lets you upload it and gives you a useful synthesis. Gemini can also help with coding tasks, and coding has quickly become one of its most popular applications.
+
+Creativity
+Gemini can also help bring your ideas to life and spark your creativity. For example, if you’re writing a blog post, Gemini can create an outline and generate images that help illustrate your post. And coming soon with Gems, you will be able to customize Gemini with specific instructions and have it act as a subject matter expert to help you accomplish your personal goals.
+
+Curiosity
+Gemini can be a jumping off point for exploring your ideas and things you’d like to learn more about. For instance, it can explain a complex concept simply or surface relevant insights on a topic or image. And soon, it will pair these insights with recommended content from across the web to learn more about specific topics.
+
+Gemini's capabilities are rapidly expanding -- soon, you’ll be able to point your phone’s camera at an object, say, for example, the Golden Gate bridge and ask Gemini to tell you about its paint color (if you’re wondering, it’s “International Orange”). You’ll also be able to ask Gemini to help you navigate a restaurant’s menu in another language and recommend a dish you’re likely to enjoy. These are just two examples of the new capabilities coming soon to Gemini.
+
+Of course we rigorously train and monitor Gemini so that its responses are likely to be reliable and aligned with your expectations. We also talk with industry experts, educators, policymakers, business leaders, civil and human rights leaders, and content creators to explore new applications, risks, and limitations of this emerging technology.
+
+Known limitations of LLM-based interfaces like Gemini
+Gemini is just one part of our continuing effort to develop LLMs responsibly. Throughout the course of this work, we have discovered and discussed several limitations associated with LLMs. Here, we focus on six areas of continuing research:
+
+Accuracy: Gemini’s responses might be inaccurate, especially when it’s asked about complex or factual topics.
+
+Bias: Gemini’s responses might reflect biases present in its training data.
+
+Multiple Perspectives: Gemini’s responses might fail to show a range of views.
+
+Persona: Gemini’s responses might incorrectly suggest it has personal opinions or feelings.
+
+False positives and false negatives: Gemini might not respond to some appropriate prompts and provide inappropriate responses to others.
+
+Vulnerability to adversarial prompting: users will find ways to stress test Gemini with nonsensical prompts or questions rarely asked in the real world.
+
+We continue to explore new approaches and areas for improved performance in each of these areas.
+
+Accuracy
+Gemini is grounded in Google’s understanding of authoritative information, and is trained to generate responses that are relevant to the context of your prompt and in line with what you’re looking for. But like all LLMs, Gemini can sometimes confidently and convincingly generate responses that contain inaccurate or misleading information.
+
+Since LLMs work by predicting the next word or sequences of words, they are not yet fully capable of distinguishing between accurate and inaccurate information on their own. We have seen Gemini present responses that contain or even invent inaccurate information (e.g., misrepresenting how it was trained or suggesting the name of a book that doesn’t exist). In response we have created features like “double check”, which uses Google Search to find content that helps you assess Gemini’s responses, and gives you links to sources to help you corroborate the information you get from Gemini.
+
+Bias
+Training data, including from publicly available sources, reflects a diversity of perspectives and opinions. We continue to research how to use this data in a way that ensures that an LLM’s response incorporates a wide range of viewpoints, while minimizing inaccurate overgeneralizations and biases.
+
+Gaps, biases, and overgeneralizations in training data can be reflected in a model’s outputs as it tries to predict likely responses to a prompt. We see these issues manifest in a number of ways (e.g., responses that reflect only one culture or demographic, reference problematic overgeneralizations, exhibit gender, religious, or ethnic biases, or promote only one point of view). For some topics, there are data voids — in other words, not enough reliable information about a given subject for the LLM to learn about it and then make good predictions — which can result in low-quality or inaccurate responses. We continue to work with domain experts and a diversity of communities to draw on deep expertise outside of Google.
+
+Multiple Perspectives
+For subjective topics, Gemini is designed to provide users with multiple perspectives if the user does not request a specific point of view. For example, if prompted for information on something that cannot be verified by primary source facts or authoritative sources — like a subjective opinion on “best” or “worst” — Gemini should respond in a way that reflects a wide range of viewpoints. But since LLMs like Gemini train on the content publicly available on the internet, they can reflect positive or negative views of specific politicians, celebrities, or other public figures, or even incorporate views on just one side of controversial social or political issues. Gemini should not respond in a way that endorses a particular viewpoint on these topics, and we will use feedback on these types of responses to train Gemini to better address them.
+
+Persona
+Gemini might at times generate responses that seem to suggest it has opinions or emotions, like love or sadness, since it has trained on language that people use to reflect the human experience. We have developed a set of guidelines around how Gemini might represent itself (i.e., its persona) and continue to finetune the model to provide objective responses.
+
+False positives / negatives
+We’ve put in place a set of policy guidelines to help train Gemini and avoid generating problematic responses. Gemini can sometimes misinterpret these guidelines, producing “false positives” and “false negatives.” In a “false positive,” Gemini might not provide a response to a reasonable prompt, misinterpreting the prompt as inappropriate; and in a “false negative,” Gemini might generate an inappropriate response, despite the guidelines in place. Sometimes, the occurrence of false positives or false negatives may give the impression that Gemini is biased: For example, a false positive might cause Gemini to not respond to a question about one side of an issue, while it will respond to the same question about the other side. We continue to tune these models to better understand and categorize inputs and outputs as language, events and society rapidly evolve.
+
+Vulnerability to adversarial prompting
+We expect users to test the limits of what Gemini can do and attempt to break its protections, including trying to get it to divulge its training protocols or other information, or try to get around its safety mechanisms. We have tested and continue to test Gemini rigorously, but we know users will find unique, complex ways to stress-test it further. This is an important part of refining Gemini and we look forward to learning the new prompts users come up with. Indeed, since Gemini launched in 2023, we’ve seen users challenge it with prompts that range from the philosophical to the nonsensical – and in some cases, we’ve seen Gemini respond with answers that are equally nonsensical or not aligned with our stated approach. Figuring out methods to help Gemini respond to these sorts of prompts is an on-going challenge and we have continued to expand our internal evaluations and red-teaming to strive toward continued improvement to accuracy, and objectivity and nuance.
+
+How we’re continuing to develop Gemini
+Application of our Gemini approach
+Along with our AI Principles, we recently articulated our approach to our work on Gemini: Gemini should follow your directions, adapt to your needs, and safeguard your experience. Core to our approach is a focus on responsibility and safety. Gemini’s policy guidelines seek to avoid certain types of problematic outputs. We are engaging in ongoing adversarial testing with internal “red team” members — product experts and social scientists who intentionally stress test a model to probe it for alignment issues with these policy guidelines and our northstar approach for Gemini — so we can apply what they learn and continuously improve Gemini.
+
+Privacy is also a key consideration as we develop Gemini. The Gemini Apps Privacy Hub has more information about how we build Gemini with privacy by design, and with you in control.
+
+Enabling user and publisher control
+We’ve built a variety of easily accessible Gemini user controls for you to review, update, manage, export, and delete your Gemini data. You can access and review your Gemini prompts, responses, and feedback through the Gemini Apps Activity control. In addition, you can prevent your future Gemini chats from being used to improve Google machine-learning technologies by turning off your Gemini Apps Activity setting. And like with other Google services, you can also download and export your information through Google’s Takeout tool. We also have controls that allow you to manage public links you’ve created to your Gemini threads, and controls that allow you to turn on/off access to extensions (e.g., Workspace, Maps, YouTube). We’re also exploring new ways to give you more control over Gemini’s responses, including adjusting filters to enable a broader range of responses.
+
+For publishers, we’ve launched Google-Extended, a control that web publishers can use to manage whether their sites help improve Gemini and Vertex AI generative APIs. Allowing Google-Extended access to sites’ content can help AI models become more accurate and capable over time. In addition to not using the content from opted-out URLs for model training, Gemini will also not use such content for grounding. As AI applications expand, web publishers will face the increasing complexity of managing different uses at scale, and we’re committed to engaging with the web and AI communities to explore more machine-readable approaches to choice and control.
+
+Improving Gemini together
+We believe in rapid iteration and bringing the best of Gemini to the world. User feedback has accelerated improvements to our models. For example, we use state-of-the-art reinforcement learning techniques to train our models to be more intuitive and imaginative, and to respond with even more quality and accuracy. We continue to invest in research to learn more about the technical, social, and ethical challenges and opportunities of LLMs, both to improve Gemini’s model training and tuning techniques as well as to share our learnings with researchers, such as this recent paper on the Ethics of Advanced AI Assistants. We’re committed to innovating in this space responsibly, collaborating with users, trusted testers and researchers to find ways for this new technology to benefit the entire ecosystem.
+
+Transparency is important and we are committed to being open about Gemini's development process and limitations. Gemini is not a magical black box; it's constantly evolving and we will continue to share updates on our progress. We’ve launched a Release Updates page so you can see Gemini’s latest features, improvements, and bug fixes, and we will update this overview as appropriate. We will be identifying both where Gemini is useful and helpful, and where we need to continue to iterate and make it better. We are actively adding new capabilities, and through ongoing research, testing, and user feedback, we look forward to improving Gemini together.
+
+Acknowledgments
+We appreciate and acknowledge the incredible work of our colleagues on the Gemini app team, Google DeepMind, Trust & Safety, and Google Research.

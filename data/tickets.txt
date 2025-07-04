@@ -1,0 +1,13 @@
+Ticket #10001: Network connectivity issue in office 3B - Status: Investigating - Created: 2025-04-01
+Ticket #10002: Printer not working in marketing department - Status: Investigating - Created: 2025-04-05
+Ticket #10003: Software license expired for Adobe Creative Suite - Status: Pending - Created: 2025-04-11
+Ticket #10004: New laptop setup for employee John Smith - Status: Completed - Created: 2025-04-21
+Ticket #10005: Email delivery delays affecting sales team - Status: Investigating - Created: 2025-04-23
+Ticket #10006: User is having problems with their Windows machine. - Status: New - Created: 2025-05-19
+Ticket #10007: I have problems with windows - Status: New - Created: 2025-05-20
+Ticket #10008: My PC is not working - Status: Resolved - Created: 2025-05-26
+Ticket #10009: Missing mouse from computer setup - Status: New - Created: 2025-05-26
+Ticket #10010: Network safety - Status: New - Created: 2025-05-26
+Ticket #10011: My internet is too slow. - Status: New - Created: 2025-06-18
+Ticket #10012: Computer issue - Status: Resolved - Created: 2025-06-28
+Ticket #10013: Computer issue - Status: New - Created: 2025-06-28

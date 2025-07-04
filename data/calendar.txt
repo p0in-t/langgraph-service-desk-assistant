@@ -1,0 +1,11 @@
+Event: Weekly Team Meeting - Date: 2025-04-01 - Time: 10:00 - Location: Conference Room A
+Event: IT Security Training - Date: 2025-04-02 - Time: 14:00 - Location: Online Zoom
+Event: System Maintenance - Date: 2025-04-03 - Time: 20:00 - Location: Server Room
+Event: Project Planning Session - Date: 2025-04-04 - Time: 11:00 - Location: Conference Room B
+Event: Quarterly Budget Review - Date: 2025-04-05 - Time: 13:00 - Location: Executive Suite
+Event: I2I2 quiz - Date: 2025-05-20 - Time: 12:00 - Location: A building
+Event: Swimming - Date: 2025-05-21 - Time: 16:00 - Location: Swimming pool
+Event: LLM via langchain HW - Date: 2025-05-21 - Time: 21:00 - Location: G building
+Event: databases lecture - Date: 2025-05-22 - Time: 21:00 - Location: k block
+Event: Goat Day - Date: 2025-08-13 - Time: 00:00 - Location: Farm
+Event: Swimming - Date: 2025-05-21 - Time: 03:00 - Location: Swimming pool
