@@ -11,3 +11,4 @@ Ticket #10010: Network safety - Status: New - Created: 2025-05-26
 Ticket #10011: My internet is too slow. - Status: New - Created: 2025-06-18
 Ticket #10012: Computer issue - Status: Resolved - Created: 2025-06-28
 Ticket #10013: Computer issue - Status: New - Created: 2025-06-28
+Ticket #10014: Network latency - Status: New - Created: 2025-07-04
