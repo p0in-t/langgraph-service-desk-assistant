@@ -10,3 +10,7 @@ Event: databases lecture - Date: 2025-05-22 - Time: 21:00 - Location: k block
 Event: Goat Day - Date: 2025-08-13 - Time: 00:00 - Location: Farm
 Event: Swimming - Date: 2025-05-21 - Time: 03:00 - Location: Swimming pool
 Event: Networking exam - Date: 2024-07-05 - Time: 23:00 - Location: K building
+Event: Swimming - Date: 2025-05-21 - Time: 04:00 - Location: Swimming pool
+Event: Swimming - Date: 2025-05-21 - Time: 05:00 - Location: Swimming pool
+Event: Swimming - Date: 2025-05-21 - Time: 06:00 - Location: Swimming pool
+Event: Swimming - Date: 2025-05-21 - Time: 07:00 - Location: Swimming pool
