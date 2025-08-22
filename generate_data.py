@@ -8,7 +8,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
 model = ChatGoogleGenerativeAI(
-    google_api_key="AIzaSyDuNe3K1AABInkX9xFzFPMRJe90WD0q10s",
+    google_api_key="YOUR-GEMINI-API-KEY",
     model="gemini-1.5-flash",
     temperature=0.9,
 )
@@ -131,4 +131,5 @@ def generate_tickets():
     print(f"Check '{OUTPUT_FILE_NAME}' for your generated data.")
 
 if __name__ == "__main__":
+
     generate_tickets()
